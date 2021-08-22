@@ -6,5 +6,6 @@ oh yaa... penyelesaian soal fisika akan ada kemungkinan akan dibuat (karena fisi
 
 konsep penyelesaian soal matematika yang sedang dikerjakan:
 - barisan dan deret
+- fluida statik
 - persamaan kuadrat
 - trigonometri
