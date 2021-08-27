@@ -17,4 +17,3 @@ else:
     x1 = (-b+math.sqrt(d))/(2*a)
     x2 = (-b-math.sqrt(d))/(2*a)
     print('himpunan penyelesaiannya adalah {0} dan {1}'.format(x1, x2))
-
