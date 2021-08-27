@@ -1,2 +1,16 @@
 print('program ini dijalankan untuk menyelesaikan konsep penyelesaian berikut')
 print('Diketahui suatu deret geometri dengan jumlah tiga suku pertama adalah – 15 dan suku ketujuh adalah – 320. Tentukan jumlah delapan suku pertama deret tersebut!')
+
+jmt = float(input('masukan jumlah dari tiga suku pertama: '))
+sk = float(input('masukan suku yang diketahui: '))
+hsl = float(input('masukan hasil dari sku tersebut: '))
+print('-------jawab-------')
+print('membuat persamaan: ')
+print('U1 + U2 + U3 =', jmt)
+print('a + ar + ar^2 =', jmt)
+print('a(1 + r + r^2) =', jmt)
+
+print('mencari a: ')
+print('U',sk,'=',hsl)
+print('a . r^',sk-1,'=',hsl)
+print('a =',hsl,'/ r^',sk-1)
