@@ -1,17 +1,14 @@
 print('program ini dijalankan untuk menyelesaikan konsep penyelesaian berikut')
-print('Tentukan jumlah enam bilangan pertama dari deret 125 – 50 + 20 – 8 +...!')
+print('Sebuah bandul dibiarkan berayun. Jarak yang dilalui oleh bandul itu pada ayunan pertama adalah 50 cm dan jarak yang dilalui oleh bandul itu untuk setiap ayunan adalah 7 10 dari ayunan sebelumnya. Tentukan jumlah jarak yang dilalui oleh bandul itu sebelum berhenti!')
 
-#input
-bs = float(input('masukan bilangan pertama: '))
-bd = float(input('masukan bilangan kedua: '))
-bc = float(input('berapa bilangan yang ingin dicari jumlahnya: '))
+b = float(input('masukan besar tersebut: '))
+r = float(input('masukan rasio: '))
+
 print('-------jawab-------')
-#rasio
-print('rasionya adalah',bd/bs)
-r = bd/bs
-print('a(r^s-1)/r-1')
-print(bs,'((',r,')^',bc,'-1)/',r,'-1')
-print(bs,'(',r**bc,'-1)/',r-1)
-print(bs,'(',(r**bc)-1,') /',r-1)
-print(bs*((r**bc)-1),'/',r-1)
-print(bs*((r**bc)-1)/(r-1))
+print('a/(1-r)')
+print(b,'/ ( 1 -', r,')')
+print(b/(1-r))
+h = b/(1-r)
+print('(',b,'/ ( 1 -', r,') ) . 2')
+print(h*2)
+print('jarak yang ditempuh adalah', h*2)
