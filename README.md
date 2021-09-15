@@ -9,3 +9,4 @@ konsep penyelesaian soal matematika yang sedang dikerjakan:
 - fluida statik
 - persamaan kuadrat
 - trigonometri
+- matriks
