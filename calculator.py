@@ -50,11 +50,13 @@ while True:
         
         # loop or not
         next_calculation = input("Wanna do next calculation? (y/n)= ")
-        if next_calculation == "no":
+        if next_calculation == "n":
           break
 
     else:
         print("something wrong. I can't calculate this.")
     
+
+
 
 

@@ -1,5 +1,5 @@
 print('program ini dijalankan untuk menyelesaikan konsep penyelesaian berikut')
-print('Sebuah bandul dibiarkan berayun. Jarak yang dilalui oleh bandul itu pada ayunan pertama adalah 50 cm dan jarak yang dilalui oleh bandul itu untuk setiap ayunan adalah 7 10 dari ayunan sebelumnya. Tentukan jumlah jarak yang dilalui oleh bandul itu sebelum berhenti!')
+print('Sebuah bandul dibiarkan berayun. Jarak yang dilalui oleh bandul itu pada ayunan pertama adalah 50 cm dan jarak yang dilalui oleh bandul itu untuk setiap ayunan adalah 7/10 dari ayunan sebelumnya. Tentukan jumlah jarak yang dilalui oleh bandul itu sebelum berhenti!')
 
 b = float(input('masukan besar tersebut: '))
 r = float(input('masukan rasio: '))
