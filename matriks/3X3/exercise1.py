@@ -1,19 +1,8 @@
 import numpy as np
 r = print
-a1 = 2
-a2 = -1
-a3 = 1
-b1 = -2
-b2= 0
-b3 = 1
-d1 = -1
-d2 = 1
-e1 = 2
-e2 = -2
-f1= 2
-f2 = 3
-m = np.array([[a1,a2,a3],[b1,b2,b3]])
-n = np.array([[d1,d2],[e1,e2],[f1,f2]])
+
+m = np.array([[-6,-14,10],[-4,0,2],[9,14,-15]])
+n = np.array([[205.000,145.000,265.000]])
 
 C = m.dot(n)
 r('matriks m adalah\n',m)
