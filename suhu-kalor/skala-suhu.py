@@ -1,121 +1,139 @@
 #skala
 print('program ini dijalankan untuk mengkonversikan suhu')
-def cr(celsius):
+def cr() -> str:
     celsius = float(input('masukan celsius: '))
     print('oR = (4/5) *', celsius)
-    reamurc = (4/5) * celsius
-    print('suhu dalam reamur adalah: ', reamurc, 'oR')
-    return reamurc
+    reamur = (4/5) * celsius
+    hasil = f'suhu dalam reamur adalah:  {reamur} oR'
+    return hasil
 
-def ck(celsius):
+def ck()-> str:
     celsius = float(input('masukan celsius: '))
     print('oK =', celsius, '+ 273')
     kelvin = celsius + 273
-    print('suhu dalam kelvin adalah: ', kelvin, 'oK')
-    return kelvin
+    hasil = f'suhu dalam kelvin adalah:  {kelvin} oK'
+    return hasil
 
-def cf(celsius):
+def cf()-> str:
     celsius = float(input('masukan celsius: '))
     print('oF = (9/5) *', celsius, '+ 32')
     fahrenheit = (9/5) * celsius + 32
-    print('suhu dalam fahrenheit adalah: ', fahrenheit, 'oF')
-    return fahrenheit
+    hasil = f'suhu dalam fahrenheit adalah: {fahrenheit} oF'
+    return hasil
 
-def rc(reamur):
+def rc()-> str:
     reamur = float(input('masukan reamur: '))
     print('oC = (5/4) *', reamur)
     celsius = (5/4) * reamur
-    print('suhu dalam celsius adalah: ', celsius, 'oC')
-    return celsius
+    hasil = f'suhu dalam celsius adalah:  {celsius} oC'
+    return hasil
  
-def rk(reamur):
+def rk()-> str:
     reamur = float(input('masukan reamur: '))
     print('oK = (4/5) *', reamur, '+ 273')
     kelvin = (5/4) * reamur + 273
-    print('suhu dalam kelvin adalah: ', kelvin, 'oK')
-    return kelvin
+    hasil = f'suhu dalam kelvin adalah: {kelvin} oK'
+    return hasil
 
-def rf(reamur):
+def rf()-> str:
     reamur = float(input('masukan reamur: '))
     print('oF = (9/4) *', reamur, '+ 32')
     fahrenheit = (9/4) * reamur + 32
-    print('suhu dalam fahrenheit adalah: ', fahrenheit, 'oF')
-    return fahrenheit
+    hasil = f'suhu dalam fahrenheit adalah: {fahrenheit} oF'
+    return hasil
 
-def fc(fahrenheit):
+def fc()-> str:
     fahrenheit = float(input('masukan fahrenheit: '))
     print('oC = (5/9) *', fahrenheit, '- 32')
     celsius = (5/9) * (fahrenheit - 32)
-    print('suhu dalam celsius adalah: ', celsius, 'oC')
-    return celsius
+    hasil = f'suhu dalam celsius adalah: {celsius} oC'
+    return hasil
 
-def fr(fahrenheit):
+def fr():
     fahrenheit = float(input('masukan fahrenheit: '))
     print('oR = (4/9) *', fahrenheit, '- 32')
-    reamur = (5/9) * (fahrenheit - 32)
-    print('suhu dalam reamur adalah: ', reamur, 'oR')
-    return reamur
+    reamur = (4/9) * (fahrenheit - 32)
+    hasil = f'suhu dalam reamur adalah: {reamur} oR'
+    return hasil
 
-def fk(fahrenheit):
+def fk()-> str:
     fahrenheit = float(input('masukan fahrenheit: '))
     print('oK = (5/9) *', fahrenheit, '- 32')
     kelvin = (5/9) * (fahrenheit - 32) + 273
-    print('suhu dalam kelvin adalah: ', kelvin, 'oK')
-    return kelvin
+    hasil = f'suhu dalam kelvin adalah:  {kelvin} oK'
+    return hasil
 
-def kc(kelvin):
+def kc()-> str:
     kelvin = float(input('masukan kelvin: '))
     print('oC =', kelvin, '- 273')
     celsius = kelvin - 273
-    print('suhu dalam celsius adalah: ', celsius, 'oC')
-    return celsius
+    hasil = f'suhu dalam celsius adalah:  {celsius} oC'
+    return hasil
 
-def kr(kelvin):
+def kr()-> str:
     kelvin = float(input('masukan kelvin: '))
     print('oR = (4/5) *', kelvin, '- 273')
-    reamur = (5/4) * (kelvin - 273)
-    print('suhu dalam reamur adalah: ', reamur, 'oR')
-    return reamur
+    reamur = (4/5) * (kelvin - 273)
+    hasil = f'suhu dalam reamur adalah: {reamur} oR'
+    return hasil
 
-def kf(kelvin):
+def kf()-> str:
     kelvin = float(input('masukan kelvin: '))
     print('oF = (9/5) *', kelvin, '- 32')
     fahrenheit = (9/5) * (kelvin - 273) + 32
-    print('suhu dalam fahrenheit adalah: ', fahrenheit, 'oF')
-    return fahrenheit
+    hasil = f'suhu dalam fahrenheit adalah: {fahrenheit} oF'
+    return hasil
 
 
-print('documentation')
-print(' -celcius - > reamur = cr\n -celcius - > kelvin = ck\n -celcius - > fahrenheit = cf')
-print('- reamur - > celsius = rc\n- reamur - > kelvin = rk\n- reamur - > fahrenheit = rf')
-print(' -kelvin - > celsius = kc\n -kelvin - > reamur = kr\n -kelvin - > fahrenheit = kf')
-print(' fahrenheit - > celsius = fc\n fahrenheit - > reamur = fr\n fahrenheit - > kelvin = fk')
+doks ="""celcius - > reamur = cr        |  reamur - > celsius = rc       |  kelvin - > celsius = kc      |  fahrenheit - > celsius = fc  |
+celcius - > kelvin = ck        |  reamur - > kelvin = rk        |  kelvin - > reamur = kr       |  fahrenheit - > reamur = fr   |
+celcius - > fahrenheit = cf    |  reamur - > fahrenheit = rf    |  kelvin - > fahrenheit = kf   |  fahrenheit - > kelvin = fk   |\n"""
 
-sat = input('masukan satuan yang ingin dikonversikan: ')
-if sat == 'cr':
-    cr(1)
-elif sat == 'ck':
-    ck(1)
-elif sat == 'cf':
-    cf(1)
-elif sat == 'rc':
-    rc(1)
-elif sat == 'rk':
-    rk(1)
-elif sat == 'rf':
-    rf(1)
-elif sat == 'kc':
-    kc(1)
-elif sat == 'kr':
-    kr(1)
-elif sat == 'kf':
-    kf(1)
-elif sat == 'fc':
-    fc(1)
-elif sat == 'fr':
-    fr(1)
-elif sat == 'fk':
-    fk(1)
-else:
-    print('satuan yang kamu masukan salah')
+print(doks)
 
+while (sat := str(input('masukan satuan yang ingin dikonversikan: '))) != "exit" :
+    try :
+        if sat == 'cr':
+            print(cr())
+            
+        elif sat == 'ck':
+            print(ck())
+            
+        elif sat == 'cf':
+            print(cf())
+            
+        elif sat == 'rc':
+            print(rc())
+            
+        elif sat == 'rk':
+            print(rk())
+            
+        elif sat == 'rf':
+            print(rf())
+            
+        elif sat == 'kc':
+            print(kc())
+            
+        elif sat == 'kr':
+            print(kr())
+            
+        elif sat == 'kf':
+            print(kf())
+            
+        elif sat == 'fc':
+            print(fc())
+            
+        elif sat == 'fr':
+            print(fr())
+            
+        elif sat == 'fk':
+            print(fk())
+            
+        else:
+            print('satuan yang kamu masukan salah')
+
+        print("\nGunakan 'exit' untuk keluar")
+           
+    except ValueError :
+        print("Input tidak Valid!!")
+        break
