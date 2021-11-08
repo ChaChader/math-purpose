@@ -10,3 +10,5 @@ konsep penyelesaian soal matematika yang sedang dikerjakan:
 - persamaan kuadrat
 - trigonometri
 - matriks
+- suhu dan kalor
+- transformasi geometri

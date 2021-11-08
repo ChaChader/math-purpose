@@ -1,7 +1,7 @@
 #kalor jenis
 print('program ini dijalankan untuk masalah kalor jenis')
-doks= ['kalor jenis : c | massa zat : m | perubahan suhu : T | banyak kalor yang diterima/ dilepas: Q']
-print(doks)
+print('documentation')
+print(' -kalor jenis: c\n -massa zat: m\n -perubahan suhu: t\n -banyak kalor yang diterima/dilepas: q')
 def c (kalorjenis):
     m = float(input('masukan massa zat: '))
     t = float(input('masukan perubahan suhu: '))

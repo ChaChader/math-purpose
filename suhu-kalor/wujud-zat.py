@@ -1,6 +1,7 @@
 #perubahan wujud zat
 print('program ini dijalankan untuk menyelesaikan masalah perubahan wujud zat')
-doks = ['kalor laten : l | kalor yang dibutuhkan : q | massa zat : m']
+print('documentation')
+print('kalor laten: l\nkalor yang dibutuhkan: q\nmassa zat: m')
 print(doks)
 def l():
     q = float(input('masukan kalor yang dibutuhkan: '))

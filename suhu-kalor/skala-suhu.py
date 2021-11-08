@@ -84,20 +84,13 @@ def kf(kelvin):
     print('suhu dalam fahrenheit adalah: ', fahrenheit, 'oF')
     return fahrenheit
 
-doks = ['celcius - > reamur = cr | '
-        'celcius - > kelvin = ck | '
-        'celcius - > fahrenheit = cf | '
-        'reamur - > celsius = rc | '
-        'reamur - > kelvin = rk | '
-        'reamur - > fahrenheit = rf | '
-        'kelvin - > celsius = kc | '
-        'kelvin - > reamur = kr | '
-        'kelvin - > fahrenheit = kf | '
-        'fahrenheit - > celsius = fc | '
-        'fahrenheit - > reamur = fr | '
-        'fahrenheit - > kelvin = fk | ']
 
-print(doks)
+print('documentation')
+print(' -celcius - > reamur = cr\n -celcius - > kelvin = ck\n -celcius - > fahrenheit = cf')
+print('- reamur - > celsius = rc\n- reamur - > kelvin = rk\n- reamur - > fahrenheit = rf')
+print(' -kelvin - > celsius = kc\n -kelvin - > reamur = kr\n -kelvin - > fahrenheit = kf')
+print(' fahrenheit - > celsius = fc\n fahrenheit - > reamur = fr\n fahrenheit - > kelvin = fk')
+
 sat = input('masukan satuan yang ingin dikonversikan: ')
 if sat == 'cr':
     cr(1)
